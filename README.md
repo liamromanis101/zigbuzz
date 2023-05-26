@@ -22,7 +22,7 @@ Zigbee Security Keys are used for securing the application layer of Zigbee commu
 
     Application Link Key (0x05): A key shared between two Zigbee devices for secure communication between them.
     Master Key (0x02): A key used for securely joining devices to a Zigbee network and for key establishment.
-    Trust Center Link Key: A key shared between a device and the Trust Center (a central authority in a Zigbee network) for secure communication and network management.
+    Trust Center Link Key (0x03): A key shared between a device and the Trust Center (a central authority in a Zigbee network) for secure communication and network management.
 
 ### Network Key:
 A Network Key, also known as a Network Encryption Key (NEK), is used for securing the network layer of Zigbee communication. It is shared among all devices in a Zigbee network and is used to encrypt and decrypt network-level data payloads. The network key ensures the confidentiality and integrity of network-related information, such as routing messages and network management frames.
