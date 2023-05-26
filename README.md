@@ -21,7 +21,7 @@ Zigbee Security Keys are used for securing the application layer of Zigbee commu
 #### Zigbee Security Keys include:
 
     Application Link Key (0x05): A key shared between two Zigbee devices for secure communication between them.
-    Master Key: A key used for securely joining devices to a Zigbee network and for key establishment.
+    Master Key (0x02): A key used for securely joining devices to a Zigbee network and for key establishment.
     Trust Center Link Key: A key shared between a device and the Trust Center (a central authority in a Zigbee network) for secure communication and network management.
 
 ### Network Key:
